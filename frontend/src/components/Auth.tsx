@@ -1,8 +1,6 @@
 import { ChangeEvent, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-// import { SignUpInput } from "@nullhackers/vibranthive-common";
 import {SignupInput} from "../zod.ts"
-import { SigninInput } from "../zod.ts";
 import axios from "axios";
 import { BACKEND_URL } from "../config.ts";
 
