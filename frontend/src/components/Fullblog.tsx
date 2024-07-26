@@ -4,11 +4,8 @@ import { Appbar } from "./Appbar";
 import { Avatar } from "./BlogCard";
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
-// import { env } from "process";
-//AIzaSyD-WkGVZwOHsxk6YVOZyghXS_Hv_sd6Dxg
-// Access your API key as an environment variable (see "Set up your API key" above)
 
-const apiKey= import.meta.env.VITE_API_KEY; // Use a public environment variable for frontend
+const apiKey= import.meta.env.VITE_API_KEY;
 
 
 //@ts-ignore
