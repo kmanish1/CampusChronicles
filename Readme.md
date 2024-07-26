@@ -23,11 +23,11 @@ Campus Chronicles is a modern blogging application designed to empower seniors o
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/chandanck22/vibranthive.git
+[git clone https://github.com/kmanish1/CampusChronicles.git]
 ```
 2. Navigate to the project directory:
 ```bash
-cd vibranthive
+cd CampusChronicles
 ```
 3. Install dependencies for both the frontend and backend:
 ```bash
@@ -50,7 +50,6 @@ npm install
     - Click ENABLE ACCELERATE
     - Click Generate API KEY
     - A URL is generated paste inside `wrangler.toml` file 
-    > It create a POOL url which we give to our backend not the orginal DB url. It help to connect to our database.
 
     ```
     name = "backend"
@@ -59,7 +58,7 @@ npm install
     [vars]
     DATABASE_URL="PASTE the PRISMA URL (Connection Pool)"
     
-    JWT_SECRET="mytoken"
+    JWT_SECRET="secret"
     ```
 
 5. Start the `backend` server using Cloudflare Workers:
