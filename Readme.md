@@ -23,7 +23,7 @@ Campus Chronicles is a modern blogging application designed to empower seniors o
 1. Clone the repository:
 
 ```bash
-[git clone https://github.com/kmanish1/CampusChronicles.git]
+git clone https://github.com/kmanish1/CampusChronicles.git
 ```
 2. Navigate to the project directory:
 ```bash
