@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "name": "campuschronicles-frontend",
+    "builds": [
+      {
+        "src": "frontend/package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "frontend/$1"
+      }
+    ]
+  }
+  
